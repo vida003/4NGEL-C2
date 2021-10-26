@@ -1,8 +1,18 @@
 # 4NGEL-C2
 BOTNET HTTP
 
-<td>
-  <th>AngelKotic</th>
-  <td>- Bot in VB</td>
-  <td>- Keylogger</td>
-</td>
+<pre>
+• AngelKotic
+  Bot written in VB
+  Key / Clipboard / Screen / Title Logger
+  Stealler (Discord & Chrome)
+  "RDP"
+  File Manager
+  Get Informations
+  Command Execution
+  Persistence ( copy itself in startup etc )
+  
+• 4NGEL C2
+  C2 written in PHP
+  User management
+</pre>
