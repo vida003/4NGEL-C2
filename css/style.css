@@ -1,0 +1,410 @@
+* {
+	background-color: black;
+	color: #e6e6e6;
+	font-size: 20px;
+	font-family: 'Bitter', serif;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
+}
+
+div.infos{
+	margin-top: 20px;
+}
+
+table th, table td{
+	border: 1px solid #262626;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+a:hover{
+	color: #e6b800;
+	opacity: 0.8;
+}
+
+table tr th{
+	padding: 5px;
+}
+
+table tr td{
+	padding: 7px;
+}
+
+.logo{
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 8vh;
+}
+
+.nav-list{
+	list-style: none;
+	display: flex;
+}
+
+.nav-list li{
+	letter-spacing: 1px;
+	margin-left: 32px;
+}
+
+form{
+	text-align: center;
+}
+
+input[type="text"], input[type="password"]{
+	border: none;
+	outline: none;
+	border-bottom: 2px solid grey;
+}
+
+input[type="submit"]{
+	border: none;
+	padding: 3px;
+	background-color: #262626;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+input[type="submit"]:hover{
+	opacity: 0.8;
+}
+
+.user_info{
+	background-color: white;
+}
+
+ul{
+	list-style: none;
+}
+
+ul li{
+	font-size: 18px;
+	padding-left: 3px;
+}
+
+.userInfo ul li span{
+	color: #e6b800;
+	font-size: 20px;
+}
+
+div.userInfo{
+	border: 2px solid grey;
+	margin-left: 18%;
+	margin-right: 18%;
+}
+
+div.op{
+	width: 100vw;
+	background-color: white;
+}
+
+.menu_options{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;;
+	align-items: center;
+}
+
+.cmd_options{
+	letter-spacing: 1px;
+	list-style: none;
+	display: flex;
+}
+
+.options_cmd{
+	cursor: pointer;
+	border-left: 2px solid grey;
+	border-right: 2px solid grey;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.other_options{
+	cursor: pointer;
+	border-left: 2px solid grey;
+	border-right: 2px solid grey;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 55px;
+}
+
+.cmd_options li ul{
+	opacity: 0;
+	transition: all 150ms ease-in;
+}
+
+.cmd_options li:hover>ul{
+	opacity: 1;
+	padding-left: 5px;
+}
+
+.titleMain{
+	padding-top: 5%;
+	text-align: center;
+}
+
+.titleMain h1{
+	font-size: 45px;
+}
+
+.titleMain h1::after{
+	content: '|';
+	margin-left: 5px;
+	opacity: 1;
+	animation: blink 0.7s infinite;
+}
+
+.form_login{
+	padding-top: 8%;
+}
+
+.form_login form span{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.form_login form input[type="submit"]{
+	display: none;
+}
+
+.link_copy{
+	all:none;
+}
+
+button{
+	border: none;
+	transition: 0.3s;
+}
+
+button:hover{
+	opacity: 0.8;
+}
+
+.flm_input h1{
+	font-weight: normal;
+	font-size: 25px;
+}
+
+.flm_input input[type="text"]{
+	margin-left: 5px;
+	margin-top: 3%;
+	width: 20%;
+}
+
+.flm_input span{
+	font-size: 20px;
+}
+
+.back{
+	text-decoration: underline;
+	margin-left: 12.5%;
+	font-size: 17px;
+}
+
+.main_infos{
+	border: 2px solid grey;
+	width: 75%;
+	height: 15%;
+	overflow: auto;
+}
+
+.main_infos pre{
+	font-size: 18px;
+	text-align: left;
+	padding-left: 1%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.main_infos #title{
+	color: #e6b800;
+}
+
+.main_infos #title::after{
+	content: '|';
+	margin-left: 2px;
+	opacity: 1;
+	animation: blink 0.7s infinite;
+}
+
+.flm_input table{
+	cursor: pointer;
+	margin-top: 2%;
+}
+
+.upload_form input[type="text"]:not(.link_up){
+	width: 4%;
+}
+
+.upload_form input[type="submit"], .config_users input[type="submit"]{
+	background-color: black;
+	border: 1px solid grey;
+}
+
+.upload_form input[type="submit"]:hover, .config_users input[type="submit"]:hover{
+	color: #e6b800;
+}
+
+.name_up{
+	width: 10%;
+}
+
+.profile_pic{
+	cursor: pointer;
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	border: 3px solid grey;
+	transition: 0.4s;
+}
+
+.profile_pic:hover{
+	border: 3px solid #5B5B5B;
+}
+
+.config_users{
+	margin-top: 2%;
+}
+
+.vertical_bar{
+	position: absolute;
+	height: 47%;
+	border-right: 2px solid grey;
+	margin-left: 26%; 
+}
+
+.config_users span{
+	font-size: 20px;
+}
+
+input[type="file"]{
+	display: none;
+}
+
+.user_manage a{
+	cursor: pointer;
+}
+
+#save_pic{
+	display: none;
+}
+
+@keyframes blink{
+	0%, 100%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	table tr{
+		display: block;
+		margin-bottom: 30px;
+	}
+
+	table tr td{
+		display: block;
+	}
+
+	table tr th{
+		display: none;
+	}
+
+	div.userInfo{
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
+	input[type="text"], input[type="password"]{
+		width: 35%;
+	}
+
+	.form_login{
+		padding-top: 25%;
+	}
+
+	.titleMain{
+		padding-top: 20%;
+	}
+
+	.other_options{
+		border-right: none;
+		margin-right: 1px;
+	}
+
+	.flm_input h1{
+		font-size: 20px;
+		margin-top: 5%;
+	}
+
+	.flm_input input[type="text"]{
+		width: 35%;
+	}
+
+	hr{
+		width: 95%;
+	}
+
+	.space-flm-result{
+		margin-right: 90%;
+	}
+
+	.other_options_flm tr{
+		margin-top: 15%;
+	}
+
+	.upload_form input[type="text"]:not(.link_up){
+		width: 10%;
+	}
+
+	.flm_input form{
+		margin-top: 5%;
+	}
+
+	.profile_pic{
+		width: 125px;
+		height: 125px;
+	}
+
+	.vertical_bar{
+		height: 33%;
+		margin-left: 35%;
+	}
+
+	.config_users span{
+		font-size: 18px;
+	}
+
+	.profile_pic{
+		margin-top: 4%;
+	}
+
+	.nav-list li{
+		margin-left: 10px;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.vertical_bar{
+		height: 51%;
+		margin-left: 35%;
+	}
+
+	.profile_pic{
+		width: 110px;
+		height: 110px;
+	}
+}
