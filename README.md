@@ -23,7 +23,6 @@ Notes: change the executable name and the icon if you want, change the mainUrl i
 
 # Desktop
 ![Screenshot_1](https://user-images.githubusercontent.com/77762068/138798830-25975aff-bb82-443e-a09f-09d6ee21385d.png)
-![image](https://user-images.githubusercontent.com/77762068/138802264-5735c3c2-5e86-496f-bf37-868e085e7d00.png)
 
 # Mobile
 ![WhatsApp Image 2021-10-25 at 23 19 38 (1)](https://user-images.githubusercontent.com/77762068/138798154-b28f76a7-bad3-407c-ad32-692b44e9f918.jpeg)
