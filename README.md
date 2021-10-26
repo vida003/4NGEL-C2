@@ -1,6 +1,8 @@
 # 4NGEL-C2
 ### Demonstration: https://youtu.be/kb1PwSe1sro
 
+![4ngel](https://user-images.githubusercontent.com/77762068/138802438-6950a912-a34b-48e5-b929-197766b6667f.jpg)
+
 <pre>
 Notes: change the executable name and the icon if you want, change the mainUrl in the bot
 • AngelKotic
