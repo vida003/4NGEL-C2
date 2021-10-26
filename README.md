@@ -1,7 +1,7 @@
 # 4NGEL-C2
 ### Demonstration: https://youtu.be/kb1PwSe1sro
 
-![Capturar](https://user-images.githubusercontent.com/77762068/138798669-bd449ab0-20c6-4677-b9b2-153480fd9def.PNG)
+![Screenshot_1](https://user-images.githubusercontent.com/77762068/138798830-25975aff-bb82-443e-a09f-09d6ee21385d.png)
 
 <pre>
 Notes: change the executable name and the icon if you want, change the mainUrl in the bot
