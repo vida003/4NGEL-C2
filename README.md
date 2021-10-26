@@ -2,6 +2,7 @@
 ### Demonstration: https://youtu.be/kb1PwSe1sro
 
 <pre>
+Notes: change the executable name and the icon if you want, change the mainUrl in the bot
 • AngelKotic
   Bot written in VB
   Key / Clipboard / Screen / Title Logger
