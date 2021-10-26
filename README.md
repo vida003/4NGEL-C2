@@ -11,6 +11,7 @@ BOTNET HTTP
   Get Informations
   Command Execution
   Persistence ( copy itself in startup etc )
+  Download / Upload
   
 • 4NGEL C2
   C2 written in PHP
